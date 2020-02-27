@@ -1,0 +1,75 @@
+.image{
+    width: 480px;
+    height: 650px;
+    border-radius: 13px;
+}
+.Title{
+    color:black;
+    text-align: center;
+}
+.Nav{
+    display: block; 
+    background-color: #2b2b2b;
+    color: #2b2b2b ;
+}
+.Search{
+    display: block;
+    justify-content: flex-end;
+    background-color: #2b2b2b;
+}
+.Modal{
+    margin: 20px;
+}
+.title{
+    color: #5ccdb2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Add{
+    text-align: center;
+}
+.Card{
+    display: flex;
+    
+
+}
+.radius{
+    border-radius: 13px; 
+}
+
+.edit{
+    display: flex;
+    justify-content: space-between;
+}
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff grey #fff grey;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  
